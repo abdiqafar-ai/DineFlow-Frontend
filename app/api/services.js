@@ -1,6 +1,6 @@
 // services.js - Enhanced API service layer
-const API_BASE = import.meta.env.NEXT_PUBLIC_API_URL
-  ? `${import.meta.env.NEXT_PUBLIC_API_URL}/api`
+const API_BASE = process.env.NEXT_PUBLIC_API_URL
+  ? `${process.env.NEXT_PUBLIC_API_URL}/api`
   : "http://127.0.0.1:5000/api";
 
 // Custom error class with response details

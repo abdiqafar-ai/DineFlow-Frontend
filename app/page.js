@@ -1,10 +1,10 @@
 import Image from "next/image";
+import Home from "./Home/page";
 
-
-export default function Home() {
+export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-     <h1>WELCOME TO MY APP</h1>
+    <div>
+       <Home/>
     </div>
   );
 }
